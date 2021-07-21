@@ -20,10 +20,33 @@ The following tables are the results of school summary and  the first one was fr
 Unlike the district summary, the *9th* grade scores had a significant influence on the school summary. All the results were increased by adding *9th* grade score to dataset for analysis.
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+As the removal of 9th grade math and reading scores, Thomas High School was the second top-performing school. After omitting these scores, Thomas High School's rank was decreased.
 ### How does replacing the ninth-grade scores affect the following:
 #### Math and reading scores by grade
-#### Scores by school spending
-#### Scores by school size
-#### Scores by school type
+If the "NaN" on *9th* grade scores of *Thomas High School* was as "0" and all other grades of *Thomas High School* did not count *9th* student to the total, it only influenced *9th* grade result and all other grades maintained their results. 
 
+#### Scores by school spending
+|Scores by School Spending:      |      |  |
+| ------------- |:-------------:| -----:|
+|Before      | |  |
+|Avg_math:     83.41  | Avg_Reading: 83.84      | %Passing_Reading:    97.31|
+|After  
+|Avg_math:     59.84  |Avg_Reading:     60.24    | %Passing_Reading:    69.66|
+
+#### Scores by school size
+*Thomas High School* is in school size bin Medium(1000-2000). Scores before and after differs by medium schoool size as follows:
+
+|Scores by School Size:     |      |  |  |  |
+| ------------- |:-------------:|:-----:|:-----:|:------:|
+|Before      | |  | | |
+|Avg_math:   83.37  | Avg_Reading: 83.86   | %Passing_Reading: 96.79| %Passing_math:  93.60 | %Overall Passing:  94.82 |
+|After  
+|Avg_math:    78.7 |   Avg_Reading: 79.1    | %Passing_Reading:     91| %Passing_math:     88 |  %Overall Passing:     90 |
+#### Scores by school type
+| Scores by School Type:   |      |  |  |  |
+| ------------- |:-------------:|:-----:|:-----:|:------:|
+|Before      |School Type | Avg_math  |Avg_Reading | %Passing_Reading |
+|          |Charter   |83.5| 83.9 |97 |
+|After  
+|          |Charter  | 80.5|80.9 | 93|
 ## Summary
