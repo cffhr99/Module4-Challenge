@@ -20,7 +20,7 @@ The following tables are the results of school summary and  the first one was fr
 Unlike the district summary, the *9th* grade scores had a significant influence on the school summary. All the results were increased by adding *9th* grade score to dataset for analysis.
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-As the removal of 9th grade math and reading scores, Thomas High School was the second top-performing school. After omitting these scores, Thomas High School's rank was decreased.
+As the removal of *9th* grade math and reading scores, Thomas High School was the second top-performing school. After omitting these scores, Thomas High School's rank was decreased.
 ### How does replacing the ninth-grade scores affect the following:
 #### Math and reading scores by grade
 If the "NaN" on *9th* grade scores of *Thomas High School* was as "0" and all other grades of *Thomas High School* did not count *9th* student to the total, it only influenced *9th* grade result and all other grades maintained their results. 
@@ -50,3 +50,4 @@ If the "NaN" on *9th* grade scores of *Thomas High School* was as "0" and all ot
 |After  
 |          |Charter  | 80.5|80.9 | 93|
 ## Summary
+Replacing the *9th* graders' scores with 'NaN' caused *Thomas High School*'s overall passing percentages and average scores to plummet. The entire district's overall passing percentages and average scores were also decreased a little but insignificantly. Furthermore, *Thomas High School* lost the second top-performance position in the district. However, after updating the total student counts to exclude the *9th* grade students of *Thomas High School*, *Thomas High School* regained the high average scores and keeped the high position of performance in the distriction.
