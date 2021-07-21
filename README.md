@@ -2,7 +2,7 @@
 ## Overview
 The purpose of School District Analysis is to analyz the data of a school district to provide clear results on every schools' performance.
 ## Resources
-*Resources*: All csv files are in [Resources]("https://github.com/cffhr99/Module4-Challenge/tree/main/Resources")  
+*Resources*: All csv files are in [Resources](https://github.com/cffhr99/Module4-Challenge/tree/main/Resources)  
 *Software*: Python 3.8, Anaconda, Jupyter Notebook
 ## Results
 Due to the potential academic dishonesty by the *9th* grade students of *Thomas High School*, this project was designed for two trials. The first one inclued the full dataset. And the other one omitted the socres of *9th* grade student from *Thomas High School*. The method decided was  to replace the original *9th* grade students' scores with *NaN*.
